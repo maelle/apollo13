@@ -17,7 +17,9 @@ URL: https://github.com/maelle/apollo13
 BugReports: https://github.com/maelle/apollo13/issues
 Imports: 
     httr,
-    jsonlite
+    jsonlite,
+    tibble,
+    withr
 Suggests: 
     covr,
     testthat (>= 3.0.0)

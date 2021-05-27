@@ -4,7 +4,7 @@
 \alias{get_packages}
 \title{Packages}
 \usage{
-get_packages(universe = "ropensci")
+get_packages(universe)
 }
 \arguments{
 \item{universe}{universe to query}

@@ -1,0 +1,15 @@
+Package: apollo13
+Title: Client to Access the 'R-Universe' 'API'
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Maëlle",
+           family = "Salmon",
+           role = c("cre", "aut"),
+           email = "msmaellesalmon@gmail.com",
+           comment = c(ORCID = "0000-0002-2815-0399"))
+Description: Client to access the 'R-Universe' 'API', but also example
+    package for a tutorial.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1

@@ -1,4 +1,6 @@
 test_that("get_packages() works", {
-  pkgs <- get_packages("maelle")
+  vcr::use_cassette("packages", {
+    pkgs <- get_packages("maelle")
+  })
   expect_vector(pkgs, character())
 })

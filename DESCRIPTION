@@ -21,6 +21,7 @@ Imports:
     tibble,
     withr
 Suggests: 
+    vcr (>= 0.6.0),
     covr,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3

@@ -15,3 +15,6 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 URL: https://github.com/maelle/apollo13
 BugReports: https://github.com/maelle/apollo13/issues
+Imports: 
+    httr,
+    jsonlite

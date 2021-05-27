@@ -1,0 +1,40 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# apollo13
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of apollo13 is to access R-universe API from R, for a tutorial.
+
+## Installation
+
+You can install the released version of apollo13 with:
+
+``` r
+# install.packages("remotes")
+remotes::install_github("maelle/apollo13")
+```
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(apollo13)
+## List packages in the rOpenSci R-universe
+ropensci_universe_pkgs <- get_packages("ropensci")
+head(ropensci_universe_pkgs)
+```

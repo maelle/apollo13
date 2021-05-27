@@ -18,3 +18,6 @@ BugReports: https://github.com/maelle/apollo13/issues
 Imports: 
     httr,
     jsonlite
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

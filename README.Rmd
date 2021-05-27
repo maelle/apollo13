@@ -34,7 +34,11 @@ This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
 library(apollo13)
+
 ## List packages in the rOpenSci R-universe
 ropensci_universe_pkgs <- get_packages("ropensci")
 head(ropensci_universe_pkgs)
+
+## List maintainers in the ggseg R-universe
+get_maintainers("ggseg")
 ```

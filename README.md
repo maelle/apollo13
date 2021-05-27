@@ -23,9 +23,17 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(apollo13)
+
 ## List packages in the rOpenSci R-universe
 ropensci_universe_pkgs <- get_packages("ropensci")
 head(ropensci_universe_pkgs)
 #> [1] "AntWeb"            "BaseSet"           "CodeDepends"      
 #> [4] "CoordinateCleaner" "DataPackageR"      "DataSpaceR"
+
+## List maintainers in the ggseg R-universe
+get_maintainers("ggseg")
+#> # A tibble: 1 x 4
+#>   name                   login       email                          packages    
+#>   <chr>                  <chr>       <chr>                          <list>      
+#> 1 Athanasia Mo Mowinckel Athanasiamo a.m.mowinckel@psykologi.uio.no <df [14 × 3…
 ```

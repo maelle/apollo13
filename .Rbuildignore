@@ -1,3 +1,5 @@
 ^apollo13\.Rproj$
 ^\.Rproj\.user$
 ^README\.Rmd$
+^\.github$
+^LICENSE\.md$

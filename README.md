@@ -4,6 +4,8 @@
 # apollo13
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/maelle/apollo13/workflows/R-CMD-check/badge.svg)](https://github.com/maelle/apollo13/actions)
 <!-- badges: end -->
 
 The goal of apollo13 is to access R-universe API from R, for a tutorial.

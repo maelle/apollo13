@@ -1,0 +1,14 @@
+http_interactions:
+- request:
+    method: get
+    uri: https://maelle.r-universe.dev/packages
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status:
+      status_code: 502
+  recorded_at: 2021-05-27 13:44:41 GMT
+  recorded_with: vcr/0.6.5.93, webmockr/0.8.0

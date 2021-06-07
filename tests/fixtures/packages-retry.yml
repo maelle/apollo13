@@ -1,0 +1,57 @@
+http_interactions:
+- request:
+    method: get
+    uri: https://maelle.r-universe.dev/packages
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status:
+      status_code: 502
+- request:
+    method: get
+    uri: https://maelle.r-universe.dev/packages
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status:
+      status_code: 200
+      category: Success
+      reason: OK
+      message: 'Success: (200) OK'
+    headers:
+      server: nginx/1.18.0
+      date: Thu, 27 May 2021 13:44:41 GMT
+      content-type: application/json; charset=utf-8
+      content-length: '180'
+      connection: keep-alive
+      x-powered-by: Express
+      access-control-allow-origin: '*'
+      etag: W/"b4-gNSpI8aK0mIGDXSgCPEFSExATo0"
+    body:
+      encoding: UTF-8
+      file: no
+      string: |-
+        [
+          "cransays",
+          "crul",
+          "goodpress",
+          "hugodown",
+          "lockedatapkg",
+          "riem",
+          "roblog",
+          "rodev",
+          "rtimicropem",
+          "slugify",
+          "tinkr",
+          "vcr",
+          "webmockr",
+          "xml2"
+        ]
+  recorded_at: 2021-05-27 13:44:41 GMT
+  recorded_with: vcr/0.6.5.93, webmockr/0.8.0
